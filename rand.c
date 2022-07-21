@@ -7,7 +7,7 @@ int main()
     
     srand(time(NULL));
     
-    for(i = 0 ; i < 6 ; i++)
+    for(i = 0 ; i < 8 ; i++)
     {
         sayi = rand() % 6 + 1;
         printf("%d\n",sayi);
